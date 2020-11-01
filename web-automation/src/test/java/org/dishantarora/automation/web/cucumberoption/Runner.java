@@ -8,10 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features={"src/resources/feature"},
-		glue={"org.dishantarora.automation.web.stepdefinitions"},
-		dryRun=true,
-		plugin= {"pretty"},
-		monochrome=true)
+		glue={"org.dishantarora.automation.web.stepdefinitions"}) // package name is enough
 public class Runner {
 
 }
